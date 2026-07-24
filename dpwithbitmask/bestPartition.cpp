@@ -35,7 +35,7 @@ int main()
         int id = setBits(m) - 1;
         for (int i = 0; i < n; i++)
         {
-            if (((m >> i) & 1) > 0)
+            if (((m >> i) & 1) > 0) // wether i bit of mask is set or unset these line means//
             {
                 // i put mask at last then jo bhi bachha hua reh gya h vo uske ander//
                 int currRew = reward[i][id];
